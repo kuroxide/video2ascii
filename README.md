@@ -25,6 +25,7 @@ Run the Python script using `python img2ascii.py` in this directory. Alternative
 
 Right-click on txt2png.bat and click 'Edit' in the context menu that shows up. \
 On the line that says `if %count% LEQ frames goto x`, change `frames` to the number of frames the source video has. \
+Also, change `WIDTH` to the width of the frames * 10 and `HEIGHT` to the height of the frames*16. \
 Move txt2png.bat to /output and then run it and wait for it to finish executing.
 
 ## Step 4: Rendering PNG frames to MP4 video
