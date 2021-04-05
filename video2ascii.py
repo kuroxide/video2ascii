@@ -4,7 +4,7 @@ import subprocess
 import time
 
 
-FPS = int(input("FPS of the source video: "))
+FPS = float(input("FPS of the source video: "))
 subprocess.run(f"ffmpeg -i ./input/input.mp4 -vf fps={FPS} input/%d.png")
 
 frameCount = 0
