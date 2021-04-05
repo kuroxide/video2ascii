@@ -10,7 +10,8 @@ A Python script that takes a MPEG-4 video and turns it into ASCII art.
 Find out the FPS of the video you wish to convert. \
 Rename the video to input.mp4 and copy it to ./input.
 
-Run the Python script using `python img2ascii.py` in this directory. Alternatively, open the script in your IDE and run the script. (Make sure to be in this directory.)
+Run the Python script using `python video2ascii.py` in this directory. Alternatively, open the script in your IDE and run the script. (Make sure to be in this directory.) \
+The script will prompt you to enter the fps of the source video. You can check the fps in Windows by right-clicking on the video's icon and pressing 'Properties', followed by the 'Details' tab.
 
 Running this script may take a very long time, especially if you have a slow computer. Multithreading or something similar is planned for implementation at some point.
 
